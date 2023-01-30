@@ -1,0 +1,71 @@
+html {
+  background-image: linear-gradient(to right, #202020, #808080)
+}
+.App {
+  width: 25%;
+  min-height: 500px;
+  margin: 8% auto;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.App h1 {
+  color: #362222;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 70%;
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 5px 5px 15px;
+  margin: 10px 5px 30px;
+  border: none;
+  border-radius: 35px;
+  color: #000;
+  background-color: #FFCCD2;
+}
+input[type="submit"] {
+  width: 30px;
+  color: #f00;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todo {
+  width: 90%;
+  height: 25px;
+  line-height: 25px;
+  margin: 5px auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.todo label {
+  cursor:pointer;
+  text-align: center;
+}
+
+.todo label:first-child {
+  width: 90%;
+  text-align: left;
+  padding-left: 10px;
+  background-color: #000;
+  color: #fff;
+}
+.xBtn {
+  padding : 0 5px;
+}
+.completed {
+  text-decoration: line-through;
+  background-color: #fff !important;
+  color: #000 !important;
+}
